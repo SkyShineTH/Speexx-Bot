@@ -12,6 +12,7 @@ const _0x64b177=_0x3184;(function(_0x5ae55a,_0x224132){const _0x39877a=_0x3184,_
 
 - Step 4 Copy this code and paste it on the console page.
 - Step 5 Press the Enter key.
+- Step 6 Press the right shift key and enter "Start" to start.
 
 
 ## Author
