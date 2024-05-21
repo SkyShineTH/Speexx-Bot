@@ -1,1 +1,118 @@
-const _0x64b177=_0x3184;(function(_0x5ae55a,_0x224132){const _0x39877a=_0x3184,_0x1e3314=_0x5ae55a();while(!![]){try{const _0x1c77ff=parseInt(_0x39877a(0xc9))/0x1+parseInt(_0x39877a(0xd1))/0x2+parseInt(_0x39877a(0xb2))/0x3*(-parseInt(_0x39877a(0xb4))/0x4)+parseInt(_0x39877a(0xce))/0x5*(parseInt(_0x39877a(0xc0))/0x6)+-parseInt(_0x39877a(0xd4))/0x7+-parseInt(_0x39877a(0xbf))/0x8+parseInt(_0x39877a(0xb5))/0x9*(-parseInt(_0x39877a(0xc8))/0xa);if(_0x1c77ff===_0x224132)break;else _0x1e3314['push'](_0x1e3314['shift']());}catch(_0x44bfe0){_0x1e3314['push'](_0x1e3314['shift']());}}}(_0x5894,0xcb2da));var answer=[];async function clickOnTheBlanks(){const _0xd064a2=_0x3184;await sleep(0x3e8),document[_0xd064a2(0xb9)](_0xd064a2(0xcd))[_0xd064a2(0xca)](),await sleep(0x7d0);var _0x2e7fcf=document[_0xd064a2(0xb9)](_0xd064a2(0xc7));_0x2e7fcf['click']();var _0x4dadce=document[_0xd064a2(0xb7)](_0xd064a2(0xd7));for(let _0x4c2a5c of _0x4dadce){answer[_0xd064a2(0xd5)](_0x4c2a5c);}await sleep(0x3e8);var _0x4c5f07=document[_0xd064a2(0xb9)](_0xd064a2(0xb0));_0x4c5f07[_0xd064a2(0xca)]();var _0x140b1f=document[_0xd064a2(0xb7)](_0xd064a2(0xaf)),_0x5adf17=document[_0xd064a2(0xb7)](_0xd064a2(0xd7));for(let _0x41ead3=0x0;_0x41ead3<_0x140b1f['length'];_0x41ead3++){_0x140b1f[_0x41ead3][_0xd064a2(0xca)]();for(let _0x434c85=0x0;_0x434c85<answer['length'];_0x434c85++){if(answer[_0x41ead3]['textContent']===_0x5adf17[_0x41ead3][_0xd064a2(0xd2)])break;_0x140b1f[_0x41ead3][_0xd064a2(0xca)]();}}document[_0xd064a2(0xb9)]('.btn.btn-primary.action-exercise-button.correct')[_0xd064a2(0xca)](),answer=[],await sleep(0x3e8),document[_0xd064a2(0xd0)](_0xd064a2(0xc2))[0x0][_0xd064a2(0xca)]();}async function Input_Anwser(){const _0x4c41f8=_0x3184;await sleep(0x3e8),document[_0x4c41f8(0xb9)](_0x4c41f8(0xcd))[_0x4c41f8(0xca)](),await sleep(0x7d0),document[_0x4c41f8(0xd0)](_0x4c41f8(0xd6))[0x0]['click']();let _0x263b59=document[_0x4c41f8(0xd0)]('answer\x20form-control');for(let _0x344559 of _0x263b59){answer[_0x4c41f8(0xd5)](_0x344559);}await sleep(0x3e8),document[_0x4c41f8(0xd0)](_0x4c41f8(0xc1))[0x0][_0x4c41f8(0xca)](),await sleep(0x3e8);document[_0x4c41f8(0xd0)]('btn\x20btn-primary\x20start-exercise')[0x0]!=undefined&&document[_0x4c41f8(0xd0)]('btn\x20btn-primary\x20start-exercise')[0x0][_0x4c41f8(0xca)]();await sleep(0x3e8);let _0xe73dc8=document[_0x4c41f8(0xd0)](_0x4c41f8(0xbc));for(let _0x25bb3c=0x0;_0x25bb3c<_0xe73dc8['length'];_0x25bb3c++){_0xe73dc8[_0x25bb3c][_0x4c41f8(0xc6)]=answer[_0x25bb3c]['value'];}document[_0x4c41f8(0xb9)](_0x4c41f8(0xcd))[_0x4c41f8(0xca)](),answer=[],await sleep(0x3e8),document[_0x4c41f8(0xd0)]('btn\x20btn-primary\x20action-exercise-button\x20next\x20nxt-exercise')[0x0]['click']();}async function Mark_the_correct(){const _0x57f38b=_0x3184;await sleep(0x3e8),document[_0x57f38b(0xb9)](_0x57f38b(0xcd))[_0x57f38b(0xca)](),await sleep(0x7d0),document[_0x57f38b(0xd0)](_0x57f38b(0xd6))[0x0]['click']();let _0x3c2cfd=document[_0x57f38b(0xd0)](_0x57f38b(0xb1));for(let _0x4ef6d9 of _0x3c2cfd){answer[_0x57f38b(0xd5)](_0x4ef6d9['checked']);}await sleep(0x3e8),document['getElementsByClassName'](_0x57f38b(0xc1))[0x0][_0x57f38b(0xca)](),await sleep(0x3e8),_0x3c2cfd=document[_0x57f38b(0xd0)]('choice');for(let _0x5885e6=0x0;_0x5885e6<_0x3c2cfd['length'];_0x5885e6++){_0x3c2cfd[_0x5885e6][_0x57f38b(0xba)]=answer[_0x5885e6];}document[_0x57f38b(0xb9)](_0x57f38b(0xcd))[_0x57f38b(0xca)](),answer=[],await sleep(0x3e8),document[_0x57f38b(0xd0)](_0x57f38b(0xc2))[0x0][_0x57f38b(0xca)]();}async function Mark_text(){const _0x80b8ed=_0x3184;var _0x31655b=document[_0x80b8ed(0xd0)](_0x80b8ed(0xb6));for(let _0xf39012 of _0x31655b){_0xf39012[_0x80b8ed(0xca)]();}document['querySelector'](_0x80b8ed(0xcd))[_0x80b8ed(0xca)](),await sleep(0x3e8),document['getElementsByClassName'](_0x80b8ed(0xc2))[0x0][_0x80b8ed(0xca)]();}function _0x3184(_0x11ba8b,_0x4e374f){const _0x589404=_0x5894();return _0x3184=function(_0x3184a5,_0x3e5b30){_0x3184a5=_0x3184a5-0xaf;let _0x5b0c43=_0x589404[_0x3184a5];return _0x5b0c43;},_0x3184(_0x11ba8b,_0x4e374f);}async function Drag_dropV2(){const _0x332552=_0x3184;await sleep(0x3e8),document['querySelector']('.btn.btn-primary.action-exercise-button.correct')['click'](),await sleep(0x7d0),document[_0x332552(0xd0)]('btn\x20btn-link\x20solution')[0x0]['click']();let _0xa6a82b=document['getElementsByClassName'](_0x332552(0xd3));for(let _0x1615af of _0xa6a82b){answer[_0x332552(0xd5)](_0x1615af['textContent']);}await sleep(0x3e8),document[_0x332552(0xd0)](_0x332552(0xc1))[0x0][_0x332552(0xca)](),await sleep(0x3e8);var _0x32ba3f=document[_0x332552(0xd0)]('drag-drop-placeholder\x20ui-droppable'),_0x20585f=document['getElementsByClassName'](_0x332552(0xb3))[0x0];for(let _0x3f21aa=0x0;_0x3f21aa<_0x32ba3f[_0x332552(0xb8)];_0x3f21aa++){_0x32ba3f=document[_0x332552(0xd0)]('drag-drop-placeholder\x20ui-droppable');let _0x49b164=_0x20585f[_0x332552(0xd0)](_0x332552(0xd3));_0x32ba3f[_0x3f21aa][_0x332552(0xca)]();for(let _0x11d5c8 of _0x49b164){_0x11d5c8[_0x332552(0xd2)]==answer[_0x3f21aa]&&_0x11d5c8[_0x332552(0xca)]();}}await sleep(0x3e8);for(let _0x47f077=0x0;_0x47f077<_0x32ba3f['length'];_0x47f077++){_0x32ba3f=document[_0x332552(0xd0)](_0x332552(0xcb));let _0x1534eb=_0x20585f[_0x332552(0xd0)]('drag-drop\x20ui-state-default\x20ui-draggable\x20ui-draggable-handle\x20ui-droppable');_0x32ba3f[_0x47f077][_0x332552(0xca)]();for(let _0x7b5a8f of _0x1534eb){_0x7b5a8f[_0x332552(0xd2)]==answer[_0x47f077]&&_0x7b5a8f['click']();}}document[_0x332552(0xb9)](_0x332552(0xcd))[_0x332552(0xca)](),answer=[],await sleep(0x3e8),document[_0x332552(0xd0)](_0x332552(0xc2))[0x0][_0x332552(0xca)]();}function sleep(_0x30809c){return new Promise(_0x474dd6=>setTimeout(_0x474dd6,_0x30809c));}const elements=[{'className':_0x64b177(0xbd),'func':clickOnTheBlanks},{'className':_0x64b177(0xbc),'func':Input_Anwser},{'className':_0x64b177(0xc4),'func':Mark_the_correct},{'className':'drag-drop-placeholder\x20ui-droppable','func':Drag_dropV2},{'className':'mark-text','func':Mark_text}];function _0x5894(){const _0x1049d6=['length','querySelector','checked','btn\x20btn-default\x20visited\x20action-exercise-button\x20next\x20nxt-exercise','answer\x20form-control','gap-container\x20form-inline\x20form-group-sm','find','4631488ZWvQzu','318PIkrID','btn\x20btn-primary\x20action-exercise-button\x20repeat','btn\x20btn-primary\x20action-exercise-button\x20next\x20nxt-exercise','keyCode','choice-option','func','value','.btn.btn-link.solution','1150kYVwqV','905312klWEnZ','click','drag-drop-placeholder\x20ui-droppable','toLowerCase','.btn.btn-primary.action-exercise-button.correct','149275VueZHf','onkeydown','getElementsByClassName','2167866iPfbhw','textContent','drag-drop\x20ui-state-default\x20ui-draggable\x20ui-draggable-handle\x20ui-droppable','9035026KSofKX','push','btn\x20btn-link\x20solution','.gap.form-control','ใส่\x20Start\x20เพื่อรันโปรแกรม\x20ถ้าต้องการหยุดให้กด\x20shift\x20ที่อยู่ด้านขวาของคีย์บอร์ดแล้วกดรีเฟรช','.input-group-addon','.btn.btn-primary.action-exercise-button.repeat','choice','532767FBRgLh','exercise-bottom-bar','8Igkqxl','40266xiXXfp','mark-text','querySelectorAll'];_0x5894=function(){return _0x1049d6;};return _0x5894();}document[_0x64b177(0xcf)]=async function(_0x51c764){const _0x291e95=_0x64b177;if(_0x51c764[_0x291e95(0xc3)]==0x10){var _0x139c38=prompt(_0x291e95(0xd8));let _0x1f706b=0x0;while(_0x139c38[_0x291e95(0xcc)]()=='start'){setTimeout(function(){const _0x553e00=_0x291e95,_0x141fbc=elements[_0x553e00(0xbe)](({className:_0x31eb99})=>document[_0x553e00(0xd0)](_0x31eb99)[0x0]);_0x141fbc?_0x141fbc[_0x553e00(0xc5)]():document[_0x553e00(0xd0)](_0x553e00(0xbb))[0x0][_0x553e00(0xca)]();},_0x1f706b*0x3e8),_0x1f706b++,await sleep(0x3e8);}return 0x1;}};
+document.getElementsByClassName('btn btn-primary action-exercise-button correct')[0].click();
+
+var anwser = []
+function Click_on_the_blanks(){
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-link solution')[0].click();
+        let anwser_el = document.getElementsByClassName('gap form-control');
+        for(let test of anwser_el){
+            anwser.push(test);
+        }
+    },1000);
+
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-primary action-exercise-button repeat')[0].click();
+    },1000);
+
+
+    setTimeout(function(){
+        var btn = document.getElementsByClassName('input-group-addon');
+        var label = document.getElementsByClassName('gap form-control');
+        for(let test of btn){
+            test.click();
+        }
+        for(let i=0;i<btn.length;i++){
+            while(anwser[i].textContent != label[i].textContent){
+                btn[i].click()
+            }
+        }
+    },1000);
+    anwser = []
+}
+
+function Input_Anwser(){
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-link solution')[0].click();
+        let anwser_el = document.getElementsByClassName('answer form-control');
+        for(let test of anwser_el){
+            anwser.push(test);
+        }
+    },1000)
+
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-primary action-exercise-button repeat')[0].click();
+    },1000)
+
+
+    setTimeout(function(){
+        let input_anwser = document.getElementsByClassName('answer form-control');
+        for(let i=0;i<input_anwser.length;i++){
+            input_anwser[i].value = anwser[i].value
+        }
+        anwser = [];
+    },1000)
+    
+}
+function Mark_the_correct(){
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-link solution')[0].click();
+        let anwser_el = document.getElementsByClassName('choice');
+        for(let test of anwser_el){
+            anwser.push(test.checked);
+        }
+    },1000)
+
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-primary action-exercise-button repeat')[0].click();
+    },1000)
+
+
+    setTimeout(function(){
+        let anwser_el = document.getElementsByClassName('choice');
+        for(let i=0;i<anwser_el.length;i++){
+            anwser_el[i].checked = anwser[i]
+        }
+        anwser = [];
+    },1000)
+    
+}
+function opposite_of_each(){
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-link solution')[0].click();
+        let anwser_el = document.getElementsByClassName('scrambled-cell ui-state-default ui-draggable ui-draggable-handle ui-droppable');
+        for(let test of anwser_el){
+            anwser.push(test.textContent);
+        }
+    },1000)
+
+    setTimeout(function(){
+        document.getElementsByClassName('btn btn-primary action-exercise-button repeat')[0].click();
+    },1000)
+
+
+    setTimeout(function(){
+        let anwser_el = document.getElementsByClassName('scrambled-cell ui-state-default ui-draggable ui-draggable-handle ui-droppable');
+        let drag = false;
+        document.addEventListener(
+            'mousedown', () => drag = false);
+        
+        document.addEventListener(
+            'mousemove', () => drag = true);
+        
+        document.addEventListener(
+        'mouseup', () => console.log(
+            drag ? 'drag' : 'click'));
+            
+        for(let i=0;i<anwser_el.length;i++){
+            let test =  anwser_el[i];
+            for(let sim of anwser){
+                if(sim.textContent == anwser[i]){
+                    anwser_el[i] = sim
+                    sim = test
+                }
+            }
+        }
+        anwser = []
+    },1000)
+}
+opposite_of_each();
